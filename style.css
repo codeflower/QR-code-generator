@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #cccccc;
+	font-family: ubuntu;
+}
+
+li {
+   list-style: none;
+}
+
+/* = Header = */
+.header-wrapper {
+  width: 100%;
+  background: #bbbbbb;
+}
+.header-logo img{
+  width: 100px;
+  height: auto;
+  margin-top: 40px;
+}
+.header-sitename {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 20px 0 40px 0;
+}
+
+/* == Main menue == */
+.nav-item a {
+  text-transform: uppercase;
+}
+
+
+.heading-wrapper {
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+.heading-description {
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* == Forms == */
+.form-group {
+  margin-bottom: 19px;
+  display: flex;
+}
+#floatingUrl {
+   border-radius: 29px;
+}
+.form-check-label {
+  margin-left: 10px;
+}
+.btn-primary {
+border-radius: 29px;
+box-shadow: 2px 2px 2px black;
+}
+.btn-reset {
+  color: #fff;
+  background-color: #0a56c9;
+  border-color: #0a37ca;
+}
+
+/* == Footer == */
+.footer {
+  background: #babababa;
+  padding: 20px 0 20px 0;
+  height: 70px;
+}
